@@ -1,0 +1,84 @@
+#www{
+  width:10000px;
+}
+
+
+body{
+  background-image: url("../image/u.JPG");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  
+}
+h1{
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-family: 'Anton', sans-serif;
+   text-align: center;
+     background-color: lightgray;
+ }
+
+
+div{
+  font-family: 'Open Sans Condensed', sans-serif;
+font-family: 'Anton', sans-serif;
+font-family: 'EB Garamond', serif;
+font-family: 'Patua One', cursive;
+  background-color: lightgray;
+  color:black;
+  font-size: 180%
+}
+
+
+#button{
+  cursor: hand;
+  background-color:blue;
+  color:white;
+  font: weight:900;
+  font-size: 1.2rem;
+  border: none;
+  padding: 1em 3em;
+  margin: 2em auto;
+  display: block;
+  transition: background 15ss ease-out,transform .15s .25s ease-in-out;
+ }
+
+
+#button:hover{
+  background-color: gray;
+  transform: scale(1.2);
+}
+
+
+#animation{
+  animation-name:bridge;
+  animation-duration: 10s;
+  animation-timing-function: ease-in;
+  animation-iteration-count: 5s;
+  animation-delay: 1s;
+
+}
+@keyframes bridge{
+  from{transform: translateX(0);}
+  to{transform: translateX(900px);}
+}
+
+
+
+.rounded {
+  width: 300px;
+
+  
+}
+
+
+
+
+
+
+
+
+#tb:hover:not(.active) {
+  background-color: #111;
+}
+
